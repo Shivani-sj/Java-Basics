@@ -1,0 +1,17 @@
+public class sum_string{
+public static void main(String[] args){
+String s="456";
+String t="123";
+int a=0;
+for(char c:s.toCharArray()){
+    a=a*10;
+    a=a+c-'0';
+}
+int b=0;
+for(char c:t.toCharArray()){
+    b=b*10;
+    b=b+c-'0';
+}
+System.out.println(a+b);
+}
+}
